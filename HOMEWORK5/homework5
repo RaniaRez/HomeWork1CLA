@@ -1,0 +1,27 @@
+#1
+class Rectangle():
+    def __init__(self, l, w):
+        self.length = l
+        self.width  = w
+
+    def rectangle_area(self):
+        return self.length*self.width
+
+newRectangle = Rectangle(6, 10)
+print(newRectangle.rectangle_area())
+#2
+class Vehicle:
+    def __init__(self, max_speed, mileage):
+        self.max_speed = max_speed
+        self.mileage = mileage
+        
+        
+car = Vehicle(220, 10000)
+print(car.max_speed, car.mileage)
+#3
+class Vehicle:
+    pass
+#4
+class Bus(Vehicle):
+    pass
+
